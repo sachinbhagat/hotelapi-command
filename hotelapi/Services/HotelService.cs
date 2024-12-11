@@ -11,8 +11,7 @@ public class HotelService : IHotelService
     public HotelService()
     {
         var dynamoDBclient = new AmazonDynamoDBClient();
-        //new AmazonDynamoDBClient(AwsConfiguration.AccessKeyId, AwsConfiguration.SecretAccessKey, AwsConfiguration.Region);
-        _dBContext = new DynamoDBContext(dynamoDBclient);
+       _dBContext = new DynamoDBContext(dynamoDBclient);
     }
 
     public async void AddHotel(Models.Hotel hotel)
