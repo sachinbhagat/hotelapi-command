@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hotelapi_command", "hotelapi\hotelapi_command.csproj", "{F447696D-F3D5-4C71-89D2-2A408F19D7FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hotelapi", "hotelapi\hotelapi.csproj", "{F447696D-F3D5-4C71-89D2-2A408F19D7FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
