@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.404" />
+    <PackageReference Include="AWSSDK.SecretsManager" Version="3.7.400.63" />
     <PackageReference Include="AWSSDK.SimpleNotificationService" Version="3.7.400.59" />
     <PackageReference Include="MediatR" Version="12.4.1" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />

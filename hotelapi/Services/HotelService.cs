@@ -10,7 +10,7 @@ public class HotelService : IHotelService
     
     public HotelService()
     {
-        var dynamoDBclient = new AmazonDynamoDBClient();
+        var dynamoDBclient = new AmazonDynamoDBClient(RegionEndpoint.GetBySystemName("us-east-1"));
        _dBContext = new DynamoDBContext(dynamoDBclient);
     }
 
